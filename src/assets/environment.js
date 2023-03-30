@@ -1,9 +1,9 @@
-const aliceEnvironments = {
-  'gencat.cat': {
+const env = {
+  'url-test-pro': {
     production: true,
     apiURL: '',
   },
-  'pre.gencat.cat': {
+  'url-test-pre': {
     production: true,
     apiURL: '',
   },

@@ -1,5 +1,5 @@
-declare const aliceEnvironments: any;
-declare const aliceEnvironmentsPRE: any;
-declare const aliceEnvironmentsPRO: any;
-const urlLocation = 'gencat.cat';
-export const environment = aliceEnvironments[urlLocation];
+declare const env: any;
+declare const envPRE: any;
+declare const envPRO: any;
+const urlLocation = 'url-pret';
+export const environment = env[urlLocation];
